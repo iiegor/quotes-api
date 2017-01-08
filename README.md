@@ -12,8 +12,8 @@ See it running: [https://finance-quotes.herokuapp.com/](https://finance-quotes.h
 
 - symbols
 - params
-- region *(optional)*
-- lang *(optional)*
+- region *(optional)* - *[default: US]*
+- lang *(optional)* - *[default: en-US]*
 
 ##### Response
 
