@@ -6,7 +6,7 @@ See it running at: [https://finance-quotes.herokuapp.com/](https://finance-quote
 
 ## Endpoints
 
-#### ``/streamer`` - Real-time quotes using chunked transferring
+#### ``/streamer`` - Real-time quotes using chunked transfer encoding
 
 ##### Parameters
 
@@ -14,6 +14,12 @@ See it running at: [https://finance-quotes.herokuapp.com/](https://finance-quote
 - params
 - region *(optional)*
 - lang *(optional)*
+
+##### Response
+
+There is no unique response, to handle it you should iterate trough the response data or similar, ([see](https://github.com/iiegor/quotes-api/blob/master/index.js#L59)).
+
+Each chunk is sent as an array of stringified JSON objects (can contain multiple quotes).
 
 ##### Usage example
 
