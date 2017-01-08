@@ -2,7 +2,7 @@
 
 > A Node.js financial quotes API
 
-See it running at: [https://finance-quotes.herokuapp.com/](https://finance-quotes.herokuapp.com/)
+See it running: [https://finance-quotes.herokuapp.com/](https://finance-quotes.herokuapp.com/)
 
 ## Endpoints
 
