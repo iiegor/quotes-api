@@ -25,6 +25,16 @@ Each chunk is sent as an array of stringified JSON objects (can contain multiple
 
 ``/streamer?symbols=EURUSD=X,A,E,^IBEX,XLF,AAPL,FB,BAC,JCP,FTR,NYRT,F&params=l84,c63,p43&region=ES&lang=es-ES`` - [demo](https://finance-quotes.herokuapp.com/streamer?symbols=EURUSD=X,A,E,^IBEX,XLF,AAPL,FB,BAC,JCP,FTR,NYRT,F&params=l84,c63,p43&region=ES&lang=es-ES)
 
+## Development
+
+*Node.js >= 7.0.0* **required**
+
+##### ``npm install`` - Install deps
+
+##### ``npm run dev`` - Run a development instance
+
+##### ``npm start`` - Run a production instance
+
 ## License
 
 MIT © [Iegor Azuaga](https://github.com/iiegor)
