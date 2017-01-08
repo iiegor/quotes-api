@@ -6,7 +6,7 @@ See it running at: [https://finance-quotes.herokuapp.com/](https://finance-quote
 
 ## Endpoints
 
-#### ``/streamer`` -> Real-time quotes using chunked transferring
+#### ``/streamer`` - Real-time quotes using chunked transferring
 
 ##### Parameters
 
