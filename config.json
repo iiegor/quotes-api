@@ -1,0 +1,38 @@
+{
+  "endpoints": {
+    "streamer": {
+      "host": "streamerapi.finance.yahoo.com",
+      "path": "/streamer/1.0"
+    },
+
+    "chart": {
+      "host": "query1.finance.yahoo.com",
+      "path": "/v7/finance/chart"
+    },
+
+    "spark": {
+      "host": "query1.finance.yahoo.com",
+      "path": "/v7/finance/spark"
+    }
+  },
+
+  "parameters": {
+    "ask": "a00",
+    "askSize": "a50",
+    "bid": "b00",
+    "bidSize": "b60",
+    "dayLow": "g53",
+    "dayHigh": "h53",
+    "extendedMarketPrice": "l86",
+    "extendedMarketTime": "t54",
+    "extendedMarketChange": "c64",
+    "extendedMarketChangePercent": "p44",
+    "regularMarketPrice": "l84",
+    "regularMarketTime": "t53",
+    "regularMarketChange": "c63",
+    "regularMarketChangePercent": "p43",
+    "regularMarketDayHigh": "h53",
+    "regularMarketDayLow": "g53",
+    "regularMarketVolume": "v53"
+  }
+}

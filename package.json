@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "quotes-api",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
