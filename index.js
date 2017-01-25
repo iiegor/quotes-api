@@ -24,7 +24,7 @@ app.get('/streamer', (req, res, next) => {
       'Cache-Control': 'private',
       'Connection': 'keep-alive',
       'Transfer-Encoding': 'chunked'
-    });
+    })
     
     // @info Make the request
     const request = http.request({
@@ -50,8 +50,8 @@ app.get('/streamer', (req, res, next) => {
         'Connection': 'keep-alive',
         'Referer': 'http://finance.yahoo.com/quote/AAPL?p=AAPL'
       }
-    });
-    request.end();
+    })
+    request.end()
 
     // @info Receive, parse and stream the chunked data
     request.on('response', (response) => {
